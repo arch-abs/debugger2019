@@ -1,0 +1,14 @@
+ #include<stdio.h>
+
+
+
+  int main()
+  {   int array[] = {23,34,12,17,204,99,16};
+      int d;
+      int TOTAL_ELEMENTS =(sizeof(array) / sizeof(array[0]));
+
+      for(d=-1;d <= (TOTAL_ELEMENTS-2);d++)
+          printf("%d\n",array[d+1]);
+
+      return 0;
+  }
